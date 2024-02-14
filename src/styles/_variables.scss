@@ -20,23 +20,10 @@ $colors: (
         "black": black,
         "white": white,
         "darkred": #7C261D,
-        "egray" :#F3F3F5
+        "egray" :#F3F3F5,
+        "yel" :#FFCB00
 );
 
-@debug map-get($colors, "purple");
-@debug map-has-key($colors, "secondary");
-@debug map-remove($colors, "primary");
-@debug map-merge($colors, ("pink": #ffc0cb));
-
-.test-btn {
-  background: map-get($colors, "gray");
-}
-
-//@debug map-get($colors, "purple");
-//@debug map-has-key($colors, "secondary");
-//@debug map-has-key($colors, "tertiary");
-//@debug map-remove($colors, "primary");
-//@debug map-merge($colors, ("pink": #ffc0cb));
 
 // spacing
 $base-padding: 0.75rem;
@@ -77,4 +64,11 @@ $base-height: 25%;
 }
 .footer-bg {
   background-image: linear-gradient(to right, #7C241B, #040101);
+}
+.linkk{
+  color: #7C241B;
+  cursor: pointer;
+}
+.linkk:hover{
+  color: #893a32;
 }

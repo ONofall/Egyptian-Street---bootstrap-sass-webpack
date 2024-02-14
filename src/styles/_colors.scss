@@ -10,6 +10,7 @@
   .bg-#{$key} {
     background-color: $val;
   }
+
   @if ($val != black and $val !=white) {
     //light variations
     @for $i from 1 through 9 {
@@ -22,6 +23,22 @@
         }
       }
     }
+    .border-#{$key} {
+      border: 1px solid $val;
+    }
+    .border-t-#{$key} {
+      border-top: 1px solid $val;
+    }
+    .border-b-#{$key} {
+      border-bottom: 1px solid $val;
+    }
+    .border-l-#{$key} {
+      border-left: 1px solid $val;
+    }
+    .border-r-#{$key} {
+      border-right: 1px solid $val;
+    }
+
 
     @for $i from 1 through 9 {
       .bg-#{$key}-light-#{$i} {
