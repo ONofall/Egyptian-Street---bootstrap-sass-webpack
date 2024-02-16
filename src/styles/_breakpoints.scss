@@ -8,19 +8,19 @@
   .sal-di {
     padding-right: 16px;
   }
-  .opinion-h{
+  .opinion-h {
     font-size: 2rem;
   }
-  .opinion-p{
+  .opinion-p {
     font-size: 1rem;
   }
-  .arti-h{
+  .arti-h {
     font-size: 1.5rem;
   }
-  .arti-p{
+  .arti-p {
     font-size: 14px;
   }
-  .senior-p{
+  .senior-p {
     font-size: 14px;
   }
 }
@@ -35,10 +35,10 @@
   .sal-pas {
     padding-right: 0;
   }
-  .opinion-h{
+  .opinion-h {
     font-size: 1.8rem;
   }
-  .opinion-p{
+  .opinion-p {
     font-size: 0.8rem;
   }
 }
@@ -56,108 +56,64 @@
   .sal-pas {
     padding-right: 13px;
   }
-  .trend-p{
+  .trend-p {
     font-size: 14px;
   }
-  .number-text{
+  .number-text {
     font-size: 16px;
   }
-  .editor-di{
+  .editor-di {
     padding-right: 0;
   }
-  .opinion-h{
+  .opinion-h {
     font-size: 1.5rem;
   }
-  .opinion-p{
+  .opinion-p {
     font-size: 0.6rem;
   }
-  .arti-h{
+  .arti-h {
     font-size: 1.4rem;
   }
-  .arti-p{
+  .arti-p {
     font-size: 12px;
   }
-  .senior-p{
+  .senior-p {
+    font-size: 12px;
+  }
+  .how-p{
+    font-size: 1rem;
+  }
+
+
+}
+
+@media (max-width: 785px) {
+  .opinion-h,.opinion-h,.editor-h,.salah-h,.salah-h2 {
+  font-size: 2rem;
+  }
+  .how-p{
+    font-size: .8rem;
+  }
+  .opinion-p{
+    font-size: 1rem;
+  }
+  .trend-p{
     font-size: 12px;
   }
 }
 
-//@media (max-width: 785px) {
-//
-//
-//  .trending-text {
-//    font-size: 11px;
-//  }
-//  .salah-h {
-//    font-size: 34px;
-//  }
-//  .salah-text {
-//    font-size: 16px;
-//  }
-//  .most-h {
-//    font-size: 1.6rem;
-//  }
-//  .most-text {
-//    font-size: 0.8rem;
-//  }
-//  .number-text {
-//    font-size: 1rem;
-//  }
-//  .editor-h {
-//    font-size: 2rem;
-//  }
-//  .editor-text {
-//    font-size: 0.9rem;
-//  }
-//  .editor-di {
-//    padding-right: 0;
-//  }
-//  .opinion-h {
-//    font-size: 1.4rem;
-//  }
-//  .opinion-text {
-//    font-size: 0.6rem;
-//  }
-//  .final-h {
-//    font-size: 1.2rem;
-//  }
-//  .final-text {
-//    font-size: 0.8rem;
-//  }
-//  .final-t {
-//    font-size: .8rem;
-//  }
-//  .nav-di, .f-img, .salah-di {
-//    display: block;
-//  }
-//  .salah-di2 {
-//    display: none;
-//  }
-//  .tr-img {
-//    padding-right: 1rem;
-//  }
-//  .con {
-//    width: 100%;
-//    max-width: 1200px;
-//    margin: 0 auto;
-//    padding: 0 20px;
-//    box-sizing: border-box;
-//  }
-//  .salah-h {
-//    font-size: 32px;
-//  }
-//}
-//@media (max-width: 480px) {
-//  .nav-di, .salah-di {
-//    display: none;
-//  }
-//  .tr-img {
-//    padding-right: 0;
-//  }
-//  .salah-h {
-//    font-size: 24px;
-//  }
-//  .passport-t {
-//    font-size: 12px;
-//  }
-//}
+@media (max-width: 400px) {
+  .salah-h {
+    font-size: 24px;
+  }
+  .passport-t {
+    font-size: 12px;
+  }
+  .opinion-p {
+    font-size: .8rem;
+  }
+  .trend-p{
+    font-size: 9px;
+  }
+
+}
